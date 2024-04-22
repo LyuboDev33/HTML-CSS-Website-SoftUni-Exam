@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* { 
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+}
+
+.headerBackground {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+header { 
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo-with-menu { 
+  display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+
+}
+
+.header-with-text { 
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-with-text h1{ 
+
+  margin-bottom: 15px;
+
+}
+
+.welcomeText { 
+  font-size: 20px;
+  text-align: center;
+  margin: 15px auto 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.logo-with-menu img { 
+  height: 100px;
+}
+
+ul { 
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li { 
+  height: 0;
+}
+
+ul li:hover { 
+  text-decoration: underline;
+  cursor: pointer;
+  
+}
+
+.moreInfo { 
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 20px;
+  background: white;
+  color: #656464;
+  cursor: pointer;
+}
+
+.moreInfo:hover { 
+  transform: scale(1.2);
+  transition: 0.6s;
+  box-shadow: 1px 1xp 4px rgba(0, 0, 0, 0.27);
+}
+
+.moreInfo:not(:hover) { 
+  transition: 0.6s;
+}
+
+.first-catalog-background { 
+  height: auto;
+  background-color: #60acc1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: -5px;
+}
+
+.twoBoxes { 
+  width: 1254px;
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-around;
+  
+}
+
+.boxProject { 
+  display: flex;
+    height: auto;
+    width: 475px;
+    box-shadow: 5px 4px 17px 5px #0000006b;
+    justify-content: space-between;
+    background: white;
+    border-right: solid #60acc1 8px;
+}
+
+.productText.text { 
+  text-align: center;
+}
+
+.offerDiv { 
+  width: 260px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+}
+
+.headerOfferDiv{ 
+  text-align: center;
+  font-weight: bold;
+}
+
+.offerDiv p:last-child { 
+  width: 200px;
+}
+
+.offer-one-img { 
+  object-fit: cover;
+  height: 266px;
+  width: 230px;
+}
+
+.twoOffers { 
+  padding: 0;
+    margin-bottom: -5px;
+}
+
+.second-background { 
+  height: auto;
+  display: flex;
+  padding: 40px;
+
+}
+
+.prodImgs { 
+  height: 150px;
+  margin-bottom: 20px;
+
+}
+
+.products { 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products p{ 
+  width: 71%;
+  margin: 20px auto;
+  text-align: justify;
+  line-height: 1.3;
+}
+
+.background-catalog { 
+  height: auto;
+  padding: 24px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #60acc1;
+
+}
+
+.imagesDiv { 
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin: 30px auto;
+
+}
+
+.imagesDiv img { 
+  height: 245px;
+  box-shadow: 1px 1px 15px black;
+  object-fit: cover;
+  width: 300px;
+}
+
+footer {  
+
+  height: auto;
+  padding: 30px;
+  text-align: center;
+
+}
+
+.allText { 
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 165px;
+}
+
+
+.messageAbout { 
+  font-style: italic;
+}
+
+.copyrightDiv { 
+  padding: 20px;
+  background: #000721db;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+
+}
